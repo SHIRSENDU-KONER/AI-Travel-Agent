@@ -30,7 +30,7 @@ def weather_status(place, dt):
     querystring = {"q":place,"dt" : dt, "lang":"eng"}
 
     headers = {
-        "X-RapidAPI-Key": "5a9578e219msh7b5adda8b82de3fp1b16e3jsn6e6ff7c4440e",
+        "X-RapidAPI-Key": rapid_api_key,
         "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
     }
 
