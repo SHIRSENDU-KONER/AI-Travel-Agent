@@ -37,6 +37,7 @@ class OpenAI:
         model="gpt-3.5-turbo",
         max_tokens=3000,
         temperature=0.7,
+        function_descriptions_multiple=None
     ):
         assert cls.api_key is not None, "OpenAI API key is not set."
         openai.api_key = cls.api_key
@@ -60,9 +61,11 @@ class OpenAI:
             ],
             temperature=temperature,
             max_tokens=max_tokens,
+            functions=function_descriptions_multiple,
+            function_call="auto"
         )
-
-        return response["choices"][0]["message"]["content"]
+        # print(response)
+        return response["choices"][0]["message"]#["content"]
 
 class HuggingFace:
     api_key = None
