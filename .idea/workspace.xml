@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fea10c56-77f5-454f-984d-68accae9d7e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/openai-bot/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/openai-bot/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textbase/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/textbase/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
